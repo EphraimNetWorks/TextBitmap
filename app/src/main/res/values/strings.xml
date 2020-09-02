@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestDrawableApplication</string>
+    <string name="canvas_text_hint">What\'s on your mind?</string>
+    <string name="save">Save</string>
+    <string name="font">Font</string>
+    <string name="style">Style</string>
+    <string name="color">Color</string>
+</resources>

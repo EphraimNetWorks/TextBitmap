@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/font_roboto"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="center"
+        android:text="Text"
+        tools:textColor="#ffffff"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@id/font_alef"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/font_alef"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/alef"
+        android:gravity="center"
+        android:text="Text"
+        android:textSize="24sp"
+        tools:textColor="#ffffff"
+        app:layout_constraintEnd_toStartOf="@id/font_dancing_script"
+        app:layout_constraintStart_toEndOf="@id/font_roboto"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/font_dancing_script"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/dancing_script"
+        android:gravity="center"
+        android:text="Text"
+        android:textSize="24sp"
+        tools:textColor="#ffffff"
+        app:layout_constraintEnd_toStartOf="@id/font_pacifico"
+        app:layout_constraintStart_toEndOf="@id/font_alef"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/font_pacifico"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:fontFamily="@font/pacifico"
+        android:gravity="center"
+        android:text="Text"
+        android:textSize="24sp"
+        tools:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/font_dancing_script"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

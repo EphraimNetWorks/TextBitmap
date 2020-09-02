@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/alef</item>
+        <item>@font/caveat</item>
+        <item>@font/dancing_script</item>
+        <item>@font/londrina_solid</item>
+        <item>@font/pacifico</item>
+        <item>@font/roboto</item>
+    </array>
+</resources>
